@@ -1,0 +1,24 @@
+git status -s //check git control status
+git add . //add all modified files into git control
+git add XXX //add XXX file into git control
+git diff HEAD //compare modified files with their previous versions, once committed this will return null
+git commit --amend //change commit info
+git commit -am "xxx" //shortcut for add & commit
+git push origin master //push current git commits to remote master branch
+git push -u origin XXX //create a upstream push from current branch to remote XXX branch
+git rebase -i HEAD~2 //compress two most recent commits into one including HEAD Node
+git reset --hard node's ref //reset HEAD to historical version
+git reflog //checkout historical git actions ref
+git log //checkout past commits info
+git log --pretty=short //only return first commit info
+git log -p XXX //compare XXX file with its previous version
+git log --graph //draw out past commits info graph
+git branch -b XXX //add branch and switch to XXX branch
+git checkout XXX //switch to XXX branch
+git checkout -a //checkout all branches
+git checkout - //switch to previous branch
+git branch -d XXX //delete branch XXX
+git branch -D XXX //force to delete branch XXX
+git merge XXX //merge XXX branch with current branch
+git merge --no-ff XXX //merge XXX branch and start editor to create commit info
+git remote add origin git@github.com:your username/your git name.git //create remote git repository 
