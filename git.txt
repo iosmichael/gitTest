@@ -15,7 +15,7 @@ git log -p XXX //compare XXX file with its previous version
 git log --graph //draw out past commits info graph
 git branch -b XXX //add branch and switch to XXX branch
 git checkout XXX //switch to XXX branch
-git checkout -a //checkout all branches
+git branch -a //checkout all branches
 git checkout - //switch to previous branch
 git branch -d XXX //delete branch XXX
 git branch -D XXX //force to delete branch XXX
